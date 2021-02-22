@@ -2,15 +2,15 @@
 const peso1 = 1.0
 
 // Declaro como String porém converte para Number(função)
-const peso2 = Number('2.0')
+const peso2 = Number('2.1')
 
 console.log(peso1, peso2)
 
 // isInteger, verifica se é inteiro.
 // 1.0  é considerado inteiro pelo JavaScript
 // 1.1 é considerado ponto flutuante
-console.log(Number.isInteger(peso1))
-console.log(Number.isInteger(peso2))
+console.log(Number.isInteger(peso1)) // True
+console.log(Number.isInteger(peso2)) // False
 
 const avaliacao1 = 9.871
 const avaliacao2 = 6.871
