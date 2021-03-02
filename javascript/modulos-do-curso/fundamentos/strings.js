@@ -12,7 +12,7 @@ console.log(escola.indexOf('3'))
 // Imprime a frase apartir do índice 1
 console.log(escola.substring(1))
 // Imprime a frase do índice 0 até o índice 3, mas não imprime o ídice 3
-console.log(escola.toString(0, 3))
+console.log(escola.substring(0, 3))
 
 // Concatena as palavras
 console.log('Escola '.concat(escola).concat('!'))

@@ -17,3 +17,5 @@ console.log(0.1 + 0.7)
 
 // Converter apra String precisa usar um ()
 console.log((10.345).toString())
+// toFixed(2), consigo fazer com que ele mostre duas casas decimais
+console.log((10.345).toFixed(2))
