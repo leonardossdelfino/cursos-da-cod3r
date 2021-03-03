@@ -13,3 +13,12 @@ const prod2 = {
 }
 
 console.log(prod2)
+
+const prod3 = {
+    nome: 'Camisa regata',
+    preco: 29.90
+}
+
+// Exemplo de JSON
+
+'{"nome": "Camisa Polo", "preco": 79.90}'

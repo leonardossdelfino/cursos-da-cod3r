@@ -9,6 +9,8 @@ console.log(isAtivo)
  */
 isAtivo = 1
 console.log(!!isAtivo)
+console.log(!true)
+console.log(!false)
 
 console.log('os verdadeiros...')
 console.log('!!3')

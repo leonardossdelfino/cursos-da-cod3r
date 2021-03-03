@@ -1,6 +1,6 @@
 // Um objeto é uma função
-console.log(typeof object)
+console.log(typeof Object)
 
 // Quando criamos uma classe ela passa a ser uma função
-class produto {}
-console.log(typeof produto)
+class Produto {}
+console.log(typeof Produto)
