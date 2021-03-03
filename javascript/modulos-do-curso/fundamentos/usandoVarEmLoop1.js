@@ -1,3 +1,6 @@
+// 1 - Declaração de variável
+// 2 - Condição
+// 3 - Incremento
 for (var i = 0; i < 10; i++) {
     console.log(i)
 }

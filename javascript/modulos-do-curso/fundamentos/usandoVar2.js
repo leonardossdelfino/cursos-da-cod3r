@@ -10,7 +10,7 @@ var numero = 1
 console.log('Fora = ', numero)
 
 /*
- * Dessa forma a variável numero vai varler 2 e será impresso 2
+ * Dessa forma a variável numero vai valer 2 e será impresso 2
  * duas vezes, pois o bloco é ignorado, por não valor como 
  * escopo.
 */
