@@ -12,7 +12,7 @@ function Obj (nome) {
     }
 }
 
-const obj2 = new Obj('Cadeira')
+const obj2 = new Obj('Cadeira') // Se não usar o This, não consigo acessar o atributo dentro do escopo do Obj.
 const obj3 = new Obj('Mesa')
 
 console.log(obj2.nome)
