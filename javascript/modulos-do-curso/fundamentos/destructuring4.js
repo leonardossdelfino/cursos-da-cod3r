@@ -3,7 +3,9 @@
 function rand ([min = 0, max = 1000]) {
     // se min maior que max, inverte min com max e max com min
     // depois dos (if) vem o destructuring e depois do = um array
-    if (min > max) [min, max] = [max, min]
+    if (min > max) {
+        [min, max] = [max, min] 
+    }
     const valor = Math.random() * (max - min) + min
     return Math.floor(valor)
 }
