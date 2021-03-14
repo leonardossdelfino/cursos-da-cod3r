@@ -7,6 +7,10 @@ function soBoaNoticia(nota) {
 soBoaNoticia(8.1)
 soBoaNoticia(6.1)
 
+// Ele pega o valor e já converte, mostrando se é true ou false
+// com base no valor passado, não preciso colocar a condição 
+// explicitamente
+// Neste caso só mostra console.log se der true
 function seForVerdadeEuFalo(valor) {
     if(valor) {
         console.log('É verdade... ' + valor)
