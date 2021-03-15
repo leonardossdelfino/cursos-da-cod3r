@@ -1,4 +1,4 @@
-/* While é mais usado quando temos uma quantidade determinada
+/* for é mais usado quando temos uma quantidade determinada
  * de valores a serem incrementados.
  */
 
@@ -14,7 +14,8 @@ for(let i = 1; i <= 10; i++) {
 }
 
 const notas = [6.7, 7.4, 9.8, 8.1, 7.7]
-// Enquanto o i menor que o tamanho do array, icrementa e faz novamente
+// Enquanto o i menor que o tamanho do array, incrementa e faz novamente
+// length é o comprimento do array
 for(let i = 0; i < notas.length; i++) {
     console.log(`Nota = ${notas[i]}`)
 }

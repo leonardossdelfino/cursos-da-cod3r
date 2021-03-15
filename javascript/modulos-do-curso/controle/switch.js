@@ -5,7 +5,7 @@ const imprimirResultado = function (nota) {
         case 10:
         case 9:
             console.log('Quadro de Honra!')
-            break // Para sair do casa caso seja verdadeiro, sai do bloco switch
+            break // Para sair do case caso seja verdadeiro, sai do bloco switch
         case 8: case 7:
             console.log('Aprovado!')
             break

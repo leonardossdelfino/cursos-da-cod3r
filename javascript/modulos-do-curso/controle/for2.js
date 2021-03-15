@@ -18,6 +18,9 @@ const pessoa = {
 // pego os atributos de pessoa a armazeno na let atributo
 // no console escrevo o atributo = valor do atributo
 // ele percorre sozinho do inicio ao fim
+
+// let INDICE/CHAVE in OBJETO/ARRAY
 for (let atributo in pessoa) {
+                   // chave         // valor
     console.log(`${atributo} = ${pessoa[atributo]}`)
 }

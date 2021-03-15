@@ -8,4 +8,7 @@ const imprimirResultado = function(nota) {
 
 imprimirResultado(10)
 imprimirResultado(4)
-imprimirResultado('Epa!') // Cuidado, ele aceita!! Porém da false
+
+// Cuidado, ele aceita!! Porém da false pois ele está comparando
+// a String com o number
+imprimirResultado('Epa!') 
