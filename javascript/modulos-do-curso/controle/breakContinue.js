@@ -20,3 +20,17 @@ for (y in nums) {
     }
     console.log(`${y} = ${nums[y]}`)
 }
+
+// NÃO USAR, SOMENTE PARA DIDÁTICA
+// posso criar um rótulo para o for
+externo:
+for (a in nums) {
+    for (b in nums ) {
+        if (a == 2 && b == 3) {
+            // consigo chamar o for rotulado, usando a palavra externo
+            // se não ele chamaria o for do b
+            break externo
+        }
+        console.log(`Par = ${a}, ${b}`)
+    }
+}
