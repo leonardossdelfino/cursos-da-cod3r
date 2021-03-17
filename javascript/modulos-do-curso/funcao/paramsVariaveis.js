@@ -1,7 +1,7 @@
 function soma() {
     let soma = 0
     // arguments é um array presente dentro de todas as funções
-    // se não é passado nem um parametro o arguments está vazio
+    // se não é passado nenhum parametro o arguments está vazio
     for (i in arguments) {
         // soma = soma + arguments[i]
         // arguments[i] é o índce do array da função

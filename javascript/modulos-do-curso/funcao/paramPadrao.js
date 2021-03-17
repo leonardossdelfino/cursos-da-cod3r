@@ -17,7 +17,7 @@ function soma2(a , b, c) {
     // se o índice 1 no arguments for válido 
     b = 1 in arguments ? b :1
     // se não for um número retorna o valor padrão
-    c = isNaN(c) ? 1 : c
+    c = isNaN(c) ? 1 : c // mais válida e usada
     return a + b + c
 }
 
