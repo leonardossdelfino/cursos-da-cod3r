@@ -1,10 +1,16 @@
 function Pessoa() {
     this.idade = 0
 
-    const self = this // esse this, é Pessoa
+    // esse this, é referenciando Pessoa, pois está dentro do
+    // escopo de Pessoa
+    const self = this 
+
     // setInterval é uma função de temporizador do JavaScript
     setInterval(function() {
-        self.idade++ // usando o self aqui ele força que é idade de Pessoa
+        // usando o self aqui ele força que é idade de Pessoa
+        // self é o this de Pessoa, ou seja é Pessoa
+        // assim consigo pegar a idade da Pessoa
+        self.idade++ 
         console.log(self.idade)
     }/*.bind(this)*/, 1000)
 }
