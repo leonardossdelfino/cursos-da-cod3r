@@ -2,11 +2,12 @@ let dobro = function (a) {
     return 2 * a
 }
 
-dobro = (a) => { // variável - parâmatro - => retorno com operação ou não
+// variável - parâmatro - => retorno com operação ou não
+dobro = (a) => { 
     return 2 * a
 }
 
-dobro = a => 2 * a //retun implícito
+dobro = a => 2 * a //return implícito
 console.log(dobro(Math.PI))
 
 let ola = function () {
