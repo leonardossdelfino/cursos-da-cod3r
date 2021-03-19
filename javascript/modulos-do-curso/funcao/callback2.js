@@ -10,12 +10,21 @@ for (let i in notas) { // percorre o array
 console.log(notasBaixas)
 
 // com callback
-const notasBaixas2 = notas.filter(function (nota) { // recebe nota do array "automático"
+// recebe nota do array "automático"
+// o filter basicamente filtra os resultados com base no critério
+// passado dentro do ( ) do filter
+const notasBaixas2 = notas.filter(function (nota) { 
     return nota < 7
 })
 
 console.log(notasBaixas2)
 
-const notasMenorQue7 = nota => nota < 7 // arrow
+// callback filter com arrow
+
+// armazeno o teste em arrow dentro de uma variável
+const notasMenorQue7 = nota => nota < 7 
+// passo o notasMenorQue7 como parametro para filter
 const notasBaixas3 = notas.filter(notasMenorQue7)
 console.log(notasBaixas3)
+
+// fica muito melhor
