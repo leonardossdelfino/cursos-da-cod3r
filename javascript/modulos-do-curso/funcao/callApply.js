@@ -8,7 +8,9 @@ const produto = {
     nome: 'Notbook',
     preco: 4589,
     desc: 0.15,
-    getPreco
+    getPreco // colocando o mesmo nome da função, ele já cria automático o nome
+            // do atributo com o mesmo nome e atribiu a função a ele
+
 }
 
 global.preco = 20
@@ -16,11 +18,17 @@ global.desc = 0.1
 console.log(getPreco())
 console.log(produto.getPreco())
 
+// outras formas
+
 const carro = {
     preco: 49990,
     desc: 0.20
 }
 
+console.log(getPreco.call(carro))
+console.log(getPreco.apply(carro))
+
 // Duas formas de chamar as funções
+// primeiro ´o contexto, depois os parametros da própria função
 console.log(getPreco.call(carro, 0.17, '$'))
-console.log(getPreco.apply(carro, [0.17, '$']))
+console.log(getPreco.apply(global, [0.17, '$']))

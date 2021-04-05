@@ -21,5 +21,4 @@ const criarPessoa = nome => {
 
 const p2 = criarPessoa('João')
 p2.falar() // no browser ele imprime João pois aqui ele sempre aponta para
-            // o nome pois no contexto lexico ele trabalha sempre dentro da função
-            
+            // o nome pois no contexto lexico ele trabalha sempre dentro da função.
